@@ -1,6 +1,17 @@
-.margin {
-    margin: 1em auto 1em; 
-    border-bottom: 0in;
-    text-decoration-color: blueviolet;
-    font-stretch: ultra-expanded;
+
+.test{
+    font-family:"Arial";
+    font-size:200%;
+    font-weight: bold;
+    outline: lightgrey;
+}
+
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+
 }
