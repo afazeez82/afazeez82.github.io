@@ -4,6 +4,7 @@
     font-size:200%;
     font-weight: bold;
     outline: lightgrey;
+    padding-top: 10px;
 }
 
 
@@ -16,7 +17,22 @@
 
 }
 
-
-.footer {
-    background-color: lightgrey;
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+#sticky-footer{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+footer .footer-below{
+    padding:25px 0;
+    background-color: darkcyan;
+  }
+
+footer .footer-col{
+    margin-bottom:50px;
+  }
